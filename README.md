@@ -1,0 +1,1 @@
+# product-attribute_odoo_preview
