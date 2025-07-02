@@ -12,7 +12,8 @@ class SupplierInfo(models.Model):
 
     manufacturer_id = fields.Many2one(
         "product.manufacturer",
-        "Manufacturer info"
+        "Manufacturer info",
+        index=True,
     )
     manufacturer_pref = fields.Char(
         related="manufacturer_id.manufacturer_pref",
